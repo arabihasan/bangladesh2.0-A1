@@ -69,7 +69,7 @@
     border: 1px solid #006A50;
     border-radius: 8px;
     color: white;
-    font-size: 18;
+    font-size: 18px;
     font-weight: 600;
     transition-duration: 0.5s;
     cursor: pointer;
@@ -314,4 +314,69 @@
     padding: 20px 400px;
     font-size: 20px;
     border: none;
+}
+/* subscribe section */
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 80px 180px;
+}
+.news-sub{
+    text-align: center;
+    background-color: #C6E4D6;
+    margin-top: 55px;
+    border-radius: 24px;   
+}
+.subs-head{
+    font-size: 40px;
+    font-weight: bold;
+}
+.subs-des{
+    font-size: 16px;
+    color: #565656;
+    margin-top: 20px;
+}
+.dwnld-inp{
+    padding: 17px 300px 17px 40px;
+    border: none;
+}
+.subscribe2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.subs-btn{
+    padding: 17px 34px;
+    background-color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.subs-btn:hover{
+    background-color: #C6E4D6;
+    color: black;
+}
+/* footer */
+footer{
+    background-color: white;
+    padding: 50px 230px;
+    margin-top: 80px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-link{
+    text-align: center;
+    margin-top: 20px;
 }
