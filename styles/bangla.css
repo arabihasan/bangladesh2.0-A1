@@ -34,6 +34,52 @@
     background-color: #006A50;
     color: white;
 }
+/* banner-style */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    padding: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 44px;
+    border-radius: 24px;
+}
+.ban-left{
+    align-items: center;
+}
+.ban-quota{
+    font-size: 24px;
+    font-weight: 500;
+    color: #6A7972;
+}
+.ban-des{
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+#ban-img{
+    width: 400px;
+    height: 300px;
+}
+.btn{
+    padding: 17px 34px;
+    background-color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    color: white;
+    font-size: 18;
+    font-weight: 600;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.btn1:hover{
+    background-color: #C6E4D6;
+    color: black;
+    border: 1px solid #006A50;
+}
 /* pillar-cart-sec */
 .pillar-head{
     padding: 80px 0 32px 0;
@@ -42,13 +88,15 @@
 }
 .pillar-cart{
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 10px;
 }
 .pillar-box{
     background-color: white;
     border: 1px solid #DBDBDB;
     padding: 24PX;
     border-radius: 16px;
+    width: 310px;
 }
 .pil-line{
     font-size: 20px;
@@ -59,4 +107,99 @@
     font-size: 16px;
     color: #565656;
     margin-top: 5px;
+}
+/* vision of future */
+.tvf{
+    margin-top: 80px;
+}
+.tvf-head{
+    font-size: 40px;
+    font-weight: bold;
+}
+.tvf-des{
+    font-size: 16px;
+    color: #565656;
+    margin-top: 24px;
+}
+.card{
+    background-color: #D5E1F5;
+    padding: 32px;
+    border-radius: 16px;
+    width: 410px;
+}
+.tvf-card{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card-head{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.card-des{
+    font-size: 16px;
+    color: #565656;
+    margin-top: 8px;
+}
+.card-btn{
+    padding: 11px 20px;
+    background-color: #5490F5;
+    border: 1px solid #5490F5;
+    border-radius: 8px;
+    color: white;
+    font-size: 18;
+    font-weight: 600;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    margin-top: 18px;
+}
+.card-btn:hover{
+    background-color: #D5E1F5;
+    color: black;
+}
+.card2{
+    background-color: #C6E4D6;
+    padding: 32px;
+    border-radius: 16px;
+    width: 410px;
+}
+.card-btn2{
+    padding: 11px 20px;
+    background-color: #09A15C;
+    border: 1px solid #09A15C;
+    border-radius: 8px;
+    color: white;
+    font-size: 18;
+    font-weight: 600;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    margin-top: 18px;
+}
+.card-btn2:hover{
+    background-color: #C6E4D6;
+    color: black;
+}
+.card3{
+    background-color: #F7EBCF;
+    padding: 32px;
+    border-radius: 16px;
+    width: 410px;
+}
+.card-btn3{
+    padding: 11px 20px;
+    background-color: #FFC239;
+    border: 1px solid #FFC239;
+    border-radius: 8px;
+    color: white;
+    font-size: 18;
+    font-weight: 600;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    margin-top: 18px;
+}
+.card-btn3:hover{
+    background-color: #F7EBCF;
+    color: black;
 }
